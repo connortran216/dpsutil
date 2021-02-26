@@ -6,14 +6,14 @@ with open("README.md", "r") as fh:
 with open("requirements.txt", "r") as rf:
     requirements = rf.read().split()
 
-setup(name='dpsutil',
-      version='1.4.1',
+setup(name='dpsutil216',
+      version='1.0.0',
       description='This repository contain all util',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url='https://github.com/TinDang97/DPS_Util',
-      author='TinDang',
-      author_email='rainstone1029x@gmail.com',
+      url='https://github.com/connortran216/dpsutil216.git',
+      author='ConnorTran',
+      author_email='canhtran210699@gmail.com',
       packages=find_packages(),
       install_requires=requirements,
       python_requires='>=3.6')
